@@ -1,0 +1,255 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  height: 70px;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 30px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: silver;
+}
+table, th, td {
+  border: 1px solid whitesmoke;
+  padding: 15px;
+  text-align: center;
+  color: whitesmoke;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+#index,#newacc {
+  background: url('studio.jpg') no-repeat center center fixed;
+  /* studio.jpg Image credit: Photo by Hannu-Pekka Peuranen on Unsplash,
+  https://unsplash.com/photos/wN1CH6Ferbg */
+  background-size: cover;
+  margin: auto;
+}
+#mysessions {
+  background: url('studio3.jpg') no-repeat center center fixed;
+  /* studio.jpg Image credit: Photo by Hannu-Pekka Peuranen on Unsplash,
+  https://unsplash.com/photos/wN1CH6Ferbg */
+  background-size: cover;
+  margin: auto;
+}
+ #managerhome {
+   background: url('studio2.jpg') no-repeat center center fixed;
+   background-size: 1920px 1080px;
+   /* image credit: photo by Matej on pexels,
+   https://www.pexels.com/photo/black-corded-headphone-illustration-819012/
+   */
+ }
+
+ #userhome {
+   background: url('studio3.jpg') no-repeat center center fixed;
+   background-size: 1920px 1080px;
+   /* image credit: photo by Skuawk on freephotos.cc,
+   https://freephotos.cc/studio#1542
+   */
+ }
+
+h1 {
+  color: whitesmoke;
+  margin-bottom: 100px;
+}
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+.h2white {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 30px;
+}
+a:link {
+  color: cyan;
+}
+
+a:visited {
+  color: whitesmoke;
+}
+
+#studiotable {
+  text-align: center;
+  list-style: none;
+  font-size: 25px;
+  font-style: italic;
+  padding-right: 40px;
+}
+#addStudioForm {
+  text-align: center;
+}
+#frm {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+  width: 100%;
+}
+.btn,#managerBtn {
+  display: inline;
+  border: solid whitesmoke 2px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: Transparent;
+  color: whitesmoke;
+}
+#managerBtn {
+  color: black;
+  border: solid black 2px;
+  margin-top: 10px;
+}
+.btn:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+#managerLabel {
+  font-size: 25px;
+  color: black;
+}
+#logInOutNav, #join {
+  float: right;
+}
+.bar {
+  width: 350px;
+  box-sizing: border-box;
+  border: 2px solid #cccd;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 12px 15px 12px 15px;
+  text-align: center;
+}
+label {
+  color: whitesmoke;
+}
+#roles {
+  display: flex;
+  width: 40%;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 22px;
+}
+#s {
+  float: left;
+  width: 33%;
+}
+#w {
+  width: 33%;
+}
+#p {
+  width: 33%;
+}
+.checkCont {
+  display: flex;
+  width: 40%;
+  margin: 0 auto;
+}
+/* checkbox styling copied and modified below borrowed from w3schools.com */
+.checkbox {
+  width: 40px;
+	height: 40px;
+	background: #ddd;
+	margin: 20px auto;
+
+	border-radius: 100%;
+	position: relative;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+.checkbox label {
+  display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+
+	transition: all .5s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 1;
+
+	background: #333;
+	box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+}
+.checkbox input[type=checkbox]:checked + label {
+	background: whitesmoke;
+}
+#sessionsCont {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  border: solid black;
+  color: whitesmoke;
+}
+#pastCont {
+  float: left;
+  width: 50%;
+  border: solid;
+  border-left: none;
+  overflow-y: scroll;
+  font-size: 22px;
+
+}
+#futureCont {
+  width: 50%;
+  border: solid;
+  border-right: none;
+  overflow-y: scroll;
+  font-size: 22px;
+}
+#book {
+  background: url(mic-white.jpg) no-repeat center fixed;
+  /* picture from https://pixabay.com/en/users/coffee4real0-1207953/ */
+  background-size: cover;
+}
+#bookinfo {
+  width: 40%;
+  height: 40px;
+  margin: auto;
+  padding-left: 500px;
+  padding-top: 60px;
+  text-align: center;
+  font-weight: bolder;
+  font-weight: 900;
+  font-size: 22px;
+}
+#bookbtn {
+  border: solid whitesmoke 2px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: Transparent;
+  color: black;
+  margin-top: 25px;
+}
+#greeting {
+  font-weight: bold;
+  margin-left: 25px;
+}
+#greetingWhite {
+  font-weight: bold;
+  margin-left: 25px;
+  color: whitesmoke;
+}
+#warning {
+  width: 100%;
+  text-align: center;
+}
